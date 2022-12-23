@@ -24,21 +24,19 @@
 }
 
 .list ul li{
-    padding-left: 55px; ;
-    font-family: 'Roboto';
+    padding-left: 55px; 
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
  
     display: flex;
     align-items: center;
-    letter-spacing: 0.06em;
     color: #959BA4;
 }
 .list ul li:hover{
     color: black;
     cursor: pointer;
-    transition: 0.3s;
+  
 }
 
 .list ul :first-child{
@@ -53,15 +51,13 @@
     width: 85px;
     align-items: center;
     margin-right: 100px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 13px;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+
 }
 
 .login:hover{
@@ -70,9 +66,7 @@
     color:#FFFFFF;
     transition: 0.3s;
 }
-.logo img{
-    width: 100%;
-}
+
 
 
 .main{
@@ -84,11 +78,11 @@
 
 }
 .heading{
-    position: absolute;
+    position: relative;
     width: 587px;
     height: 32px;
-    left: 380px;
-    top: 135px;
+    left: 280px;
+    top: 80px;
 }
 .heading p {   
     font-family: 'Roboto';
