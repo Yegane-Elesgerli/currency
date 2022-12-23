@@ -53,26 +53,21 @@
     width: 85px;
     align-items: center;
     margin-right: 100px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 13px;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+ 
 }
 
 .login:hover{
     cursor: pointer;
     background-color:blueviolet;
     color:#FFFFFF;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
-.logo img{
-    width: 100%;
-}
+
 
 
 .main{
@@ -84,14 +79,14 @@
 
 }
 .heading{
-    position: absolute;
+    position: relative;
     width: 587px;
     height: 32px;
-    left: 380px;
-    top: 135px;
+    left: 250px;
+    top: 50px;
 }
 .heading p {   
-    font-family: 'Roboto';
+   
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -111,8 +106,7 @@
 
 .text{
     
-    font-size: 1.18rem;
-    line-height: 0.875rem;
+    font-size: 18px;
     color: #4b4040; 
     padding-top: 15px;
     padding-bottom: 10px;   
